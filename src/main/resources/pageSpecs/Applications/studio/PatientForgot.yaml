@@ -1,0 +1,35 @@
+elements:
+   
+    Forgot_Password:
+        findBy: xpath
+        locator: //h5/a[text()='Forgot Password?']
+    BackToLogin:
+        findBy: xpath
+        locator: //button/label[text()='Back to Login']
+    EmailField:
+        findBy: xpath
+        locator: //input[@placeholder='johndoe@email.com'] 
+    SendPasswordBtn:
+        findBy: xpath
+        locator: //button/label[text()='Send Password']
+    ErrorMsgForNonRegEmail:
+        findBy: xpath
+        locator: //div[@class='ui negative message']
+    ResetButton:
+        findBy: xpath
+        locator: //button/label[text()='Reset Password']
+    ResetCode:
+        findBy: xpath
+        locator: //div/input[@name='otp']
+    NewPassword:
+        findBy: xpath
+        locator: //div/input[@name='password']
+    PatientToolsTExt1:
+        findBy: xpath
+        locator: //h5[contains(text(),'PATIENT TOOLS')]
+    Dashboard:
+        findBy: xpath
+        locator: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]
+    Logout:
+        findBy: xpath
+        locator: //h4[contains(text(),'Logout')]

@@ -1,0 +1,267 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   
+    ForgotPasswordPatient:
+        findBy: xpath
+        locator: //h5/a[text()='Forgot Password?']
+    EmailIDField: 
+        findBy: xpath
+        locator: //input[@placeholder='E-mail address']
+    PasswordField: 
+        findBy: xpath
+        locator: //input[@placeholder='Password']
+    Login:
+        findBy: xpath
+        locator: //button/label[text()='Login']
+    LoginText:
+        findBy: xpath
+        locator: //h3[contains(text(),'new test')]
+    FormList:
+        findBy: xpath
+        locator: //button/a[@class='Button__ButtonLink-sc-1dplncd-2 kqIedR']
+    FirstPage_TotalPageNumber:
+        findBy: xpath
+        locator: //h3[text()='1'][text()=' / '][text()='5']
+    FirstPage_FirstPageTitle:
+        findBy: xpath
+        locator: //h2[text()='Demographics'] 
+    FirstPage_SecondPageTitle:
+        findBy: xpath
+        locator: //h3[text()='Office Only Page']
+    FirstNameField:
+        findBy: xpath
+        locator: //input[@name='58311e34-0b9e-4589-8c06-0b88fff6b68e']
+    WhyComeDoctor:
+        findBy: xpath
+        locator: //textarea[contains(@name,'5d1ec419')]
+    PatientInfo_SectionText:
+        findBy: xpath
+        locator: //h3[contains(text(),'Patient Information')]
+    SocialTextLabel:
+       findBy: xpath
+       locator: //label[text()='Social Security']
+    EmailNewTextLabel:
+       findBy: xpath
+       locator: //label[text()='Email New']
+    SelectATest_SectionText:
+        findBy: xpath
+        locator: //h3[contains(text(),'Visit Info')]
+    SecondPage_sectionText:
+        findBy: xpath
+        locator: //h3[text()='Emergency Contact']
+    LeftArrow_SecondPage:
+        findBy: cssselector
+        locator: button[class^='Icon__IconButton']>svg>path
+    DashboardButton:
+        findBy: xpath
+        locator: //h4[contains(text(),'Dashboard')]
+    NextPageBtn:
+        findBy: xpath
+        locator: //button/label[text()='Next Page']
+    FirstPage_RightArrow:
+        findBy: xpath
+        locator: //body//button[2]//*[local-name()='svg']
+    RightArrow_FirstPage:
+       findBy: cssselector
+       locator: button>svg>path
+    LastNameField: 
+        findBy: xpath
+        locator: //input[@name='96c3d27d-78fa-47a5-9444-40a411d4ba4d']
+    DOBField:
+        findBy: xpath
+        locator: //input[@placeholder='mm/dd/yyyy']
+    Gender_Male:
+        findBy: xpath
+        locator: //label[contains(text(),'Male')]
+    Gender_Female:
+        findBy: xpath
+        locator: //label[contains(text(),'Female')]
+    Gender_Other:
+        findBy: xpath
+        locator: //label[contains(@for,'option-Other-02ff')]
+    OtherField:
+        findBy: xpath
+        locator: //input[contains(@name,'20192bc')]
+    OtherFieldText:
+        findBy: xpath
+        locator: //label[contains(text(),'Other:')]
+    SocialSecurity:
+        findBy: xpath
+        locator: //input[@placeholder='XXX-XX-XXXX']
+    ErrorForInvalidSSN:
+        findBy: xpath
+        locator: //label[contains(text(),'Please enter a valid SSN')]
+    SSNClick:
+        findBy: xpath
+        locator: //label[contains(text(),'Best Phone')]
+    BestPhoneField:
+        findBy: xpath
+        locator: //div/input[@placeholder='123 456 7890'][@tabindex='0']
+    SelectStateDropdown_selected:
+        findBy: xpath
+        locator: //div[@class='Dropdown-placeholder is-selected']
+    SelectState:
+        findBy: xpath
+        locator: //div[contains(text(),'Select state')] 
+    DropdownOptions_State:
+        findBy: xpath
+        locator: //div/div[@class='Dropdown-option']
+    EmailID:
+        findBy: xpath
+        locator: //input[@placeholder='your@email.com']
+    FileUpload:
+        findBy: xpath
+        locator: //button/label[text()='Upload / Take Photo']
+    SelectTest_Sarc:
+        findBy: xpath
+        locator: //label[contains(text(),'SARS-CoV-2 (COVID-19) Rapid Antibody Test -finger')]
+    SelectTest_NucleicAcid:
+        findBy: xpath
+        locator: //label[contains(text(),'Nucleic Acid Test-PCR-Nasopharyngeal swab sent to')]
+    SelectTest_Serology:
+        findBy: xpath
+        locator: //label[contains(text(),'Serology Antibody Testing-Venipuncture (blood draw')]
+    MandatoryField_Msg:
+        findBy: xpath
+        locator: //span[contains(text(),'Please answer')]
+    WhyComeToDoctor:
+        findBy: xpath
+        locator: //textarea[contains(@name,'5d1ec419')]
+    EmergencyContactSection:
+        findBy: xpath
+        locator: //h3[contains(text(),'Emergency Contact')]
+    OfficeOnly:
+        findBy: xpath
+        locator: //h3[contains(text(),'Office Only')]
+    OfficeOnlyText_Pat:
+        findBy: xpath
+        locator: //p[contains(text(),'THIS TEXT SHOULD BE DISPLAYED TO PATIENT')]
+    SecondPage_Name:
+        findBy: xpath
+        locator: //input[contains(@name,'116effcc')]
+    SecondPage_Phone:
+        findBy: xpath
+        locator: //input[contains(@name,'fafc1ac2')]
+    SecondPage_RelationToPatient:
+        findBy: cssselector
+        locator: div.Dropdown-control
+    DropDownOpt_RelationPat:
+        findBy: cssselector
+        locator: div.Dropdown-option
+    StateLabelText:
+        findBy: xpath
+        locator: //label[contains(@text(),'State new')]
+    SecondPage_NumberOfPage:
+        findBy: xpath
+        locator: //h3[text()='2'][text()=' / '][text()='5']
+    SecondPageTitle_2:
+        findBy: xpath
+        locator: //h2[contains(text(),'Office Only Page')]
+    ThirdPageTitle_2:
+        findBy: xpath
+        locator: //h3[text()='Insurance']
+    PreviousButton_SecondPage:
+        findBy: xpath
+        locator: //label[contains(text(),'Prev Page')]
+    PrimaryInsuranceText:
+        findBy: xpath
+        locator: //h3[contains(text(),'Primary Insurance')]
+    InsuranceNameText:
+        findBy: xpath
+        locator: //label[contains(text(),'Group Number')]
+    SecondaryInsuranceText:
+        findBy: xpath
+        locator: //h3[contains(text(),'Secondary Insurance')]
+    PolicyHolderName:
+        findBy: xpath
+        locator: //input[contains(@name,'2da711f1')]
+    InsuranceName:
+        findBy: xpath
+        locator: //input[contains(@name,'025477eb')]
+    GroupNumber:
+        findBy: xpath
+        locator: //input[contains(@name,'aeec3453')]
+    PolicyID:
+        findBy: xpath
+        locator: //input[contains(@name,'908ae42a')]
+    PolicyDOB:
+        findBy: xpath
+        locator: //input[contains(@name,'0c022990')]
+    PolicyName:
+        findBy: xpath
+        locator: //input[contains(@name,'482e8bbe')]
+    GroupNum_Secondary:
+        findBy: xpath
+        locator: //input[contains(@name,'411aa5e3')]
+    PolicyID_Secondary:
+        findBy: xpath
+        locator: //input[contains(@name,'56c70668')]
+    PolicyHolder_Secondary:
+        findBy: xpath
+        locator: //input[contains(@name,'fbd08789')]
+    InsuranceName_Secondary:
+        findBy: xpath
+        locator: //input[contains(@name,'96bdbd46')]
+    CurrentPageThird_TotalPage:
+        findBy: xpath
+        locator: //h3[text()='3'][text()=' / '][text()='5']
+    ThirdPage_Title:
+        findBy: xpath
+        locator: //h2[contains(text(),'Insurance')]
+    FourthPage_Checkbox:
+        findBy: xpath
+        locator: //span[contains(text(),'I understand and consent to the information above')]
+    UploadFile_Front:
+        findBy: xpath
+        locator: //body/div[@id='root']/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/div[1]/div[1]/div[1]/form[1]/div[9]/div[1]/div[1]/input[1]
+    UploadFile_Back:
+        findBy: xpath
+        locator: //body/div[@id='root']/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/div[1]/div[1]/div[1]/form[1]/div[10]/div[1]/div[1]/input[1]
+    Savetext:
+        findBy: xpath
+        locator: //label[text()='File Saved ✓']
+    CurrentPageFourth_TotalPage:
+        findBy: xpath
+        locator: //h3[text()='4'][text()=' / '][text()='5']
+    FourthPage_Title:
+        findBy: xpath
+        locator: //h2[contains(text(),'Consent')]
+    SignatureText:
+        findBy: xpath
+        locator: //h3[contains(text(),'Signature')] 
+    SigErrorMsg:
+        findBy: xpath
+        locator: //label[contains(text(),'this field is required')] 
+    MedicalConditionText:
+        findBy: xpath
+        locator: //h3[contains(text(),'Medical Conditions')]
+    CurrentPageFifth_TotalPage:
+        findBy: xpath
+        locator: //h3[text()='5'][text()=' / '][text()='5']
+    FiftPage_Title:
+        findBy: xpath
+        locator: //h2[contains(text(),'Medical History')]
+    AllergicAndMedications:
+        findBy: xpath
+        locator: //h3[contains(text(),'Allergies & Medications')]
+    Diabetes:
+        findBy: xpath
+        locator: //label[contains(@for,'option-Diabetes')]
+    OtherCheck:
+        findBy: xpath
+        locator: //label[contains(@for,'option-Other-04')]
+    OtherField:
+        findBy: xpath
+        locator: //input[contains(@name,'a30bbbd5')]
+    SubmitButton:
+        findBy: xpath
+        locator: //button/label[contains(text(),'Submit')]
+    Dashboard:
+        findBy: xpath
+        locator: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]
+    Logout:
+        findBy: xpath
+        locator: //h4[contains(text(),'Logout')]

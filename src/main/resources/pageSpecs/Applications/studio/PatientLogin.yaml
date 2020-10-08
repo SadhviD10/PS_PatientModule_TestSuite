@@ -1,0 +1,39 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   
+    ForgotPasswordPatient:
+        findBy: xpath
+        locator: //h5/a[text()='Forgot Password?']
+    EmailIDField: 
+        findBy: xpath
+        locator: //input[@placeholder='E-mail address']
+    PasswordField: 
+        findBy: xpath
+        locator: //input[@placeholder='Password']
+    Login:
+        findBy: xpath
+        locator: //button/label[text()='Login']
+    LoginTab:
+        findBy: xpath
+        locator: //span[contains(text(),'Login')]
+    SignUp:
+        findBy: xpath
+        locator: //span[contains(text(),'Signup')]
+    Error_Msg:
+        findBy: xpath
+        locator: //label[contains(text(),"Please include an '@' in the email address.")]
+    ErrorMsgInvalid:
+        findBy: xpath
+        locator: //div[@class='ui negative message']
+    Dashboard:
+        findBy: xpath
+        locator: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]
+    Logout:
+        findBy: xpath
+        locator: //h4[contains(text(),'Logout')]
+    LoginText:
+        findBy: xpath
+        locator: //h3[contains(text(),'new test')]

@@ -1,0 +1,44 @@
+elements:
+   
+    Forgot_Password:
+        findBy: xpath
+        locator: //h5/a[text()='Forgot Password?']
+    SignUp:
+        findBy: xpath
+        locator: //span[contains(text(),'Signup')]
+    FirstName:
+        findBy: xpath
+        locator: //input[@placeholder='First Name']
+    LastName:
+        findBy: xpath
+        locator: //input[@placeholder='Last Name']
+    PhoneNumber:
+        findBy: xpath
+        locator: //input[@placeholder='222 222 2222']
+    Email:
+        findBy: xpath
+        locator: //input[@placeholder='johndoe@email.com']
+    CreatePassword:
+        findBy: xpath
+        locator: //input[@placeholder='*****']
+    PasswordFormat:
+        findBy: xpath
+        locator: //h5[text()='minimum of 6 characters & must contain at least 1 uppercase letter']
+    SignUpBtn:
+        findBy: xpath
+        locator: //button/label[text()='Sign Up']
+    ErrorMsg:
+        findBy: xpath
+        locator: //div[@class='ui negative message']
+    PatientToolsTExt:
+        findBy: xpath
+        locator: //h5[contains(text(),'PATIENT TOOLS')]
+    ErrorMSgOnInvalidEmail:
+        findBy: xpath
+        locator: //label[contains(text(),"Please include an '@' in the email address.")]
+    Dashboard:
+        findBy: xpath
+        locator: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]
+    Logout:
+        findBy: xpath
+        locator: //h4[contains(text(),'Logout')]
