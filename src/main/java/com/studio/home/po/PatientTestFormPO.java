@@ -455,6 +455,7 @@ public class PatientTestFormPO extends MobileWebViewPage {
 		Thread.sleep(1000);
 		Actions action = new Actions(session.driver);
 		action.moveToElement(element(element)).click().build().perform();
+		Thread.sleep(6000);
 	}
 
 	public void clear_FieldValue(String element) throws InterruptedException, AWTException {
@@ -546,7 +547,7 @@ public class PatientTestFormPO extends MobileWebViewPage {
 			for (int i = 1; i < 2; i++) {
 				relationlist.get(i).click();
 				System.out.println("clicked for two");
-
+				Thread.sleep(1000);
 				status = true;
 			}
 		} else {

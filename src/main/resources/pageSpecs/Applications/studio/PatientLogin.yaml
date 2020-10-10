@@ -36,4 +36,4 @@ elements:
         locator: //h4[contains(text(),'Logout')]
     LoginText:
         findBy: xpath
-        locator: //h3[contains(text(),'new test')]
+        locator: //h5[contains(text(),'forms')]

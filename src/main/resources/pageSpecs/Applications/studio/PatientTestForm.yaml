@@ -18,7 +18,7 @@ elements:
         locator: //button/label[text()='Login']
     LoginText:
         findBy: xpath
-        locator: //h3[contains(text(),'new test')]
+        locator: //h5[contains(text(),'forms')]
     FormList:
         findBy: xpath
         locator: //button/a[@class='Button__ButtonLink-sc-1dplncd-2 kqIedR']
